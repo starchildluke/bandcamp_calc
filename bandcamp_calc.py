@@ -26,4 +26,4 @@ for t in cleaned_up_times_list:
 
 # Sum and print total length
 total_time = sum(tm, start=datetime.timedelta())
-print(total_time)
+print(f'Total length: {total_time}')
